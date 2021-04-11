@@ -1,0 +1,16 @@
+.site-blocks-cover > .container >.navbar >.fa {
+  padding: 20px;
+
+}
+
+.site-blocks-cover > .container >.navbar >#description{
+  display: none;
+  position    : absolute;
+bottom      :125px;
+left : 50px;
+right:75%;
+}
+
+.site-blocks-cover> .container >.navbar >.fa-pagelines:hover ~ #description {
+  display: block;
+}
